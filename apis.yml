@@ -1,8 +1,26 @@
 aid: haus-laboratories
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/haus-laboratories.png
 name: Haus Laboratories
-description: Haus Laboratories is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Haus Labs by Lady Gaga (formerly Haus Laboratories) is an American clean-beauty cosmetics brand
+  founded by Lady Gaga. It first launched in September 2019 and relaunched in June 2022 with Sephora
+  as its exclusive retail partner. The brand makes skincare-infused, high-performance color cosmetics
+  and makeup — including its Triclone Skin Tech Foundation plus lip, eye, and complexion products —
+  that are always vegan and cruelty-free. It sells direct-to-consumer through hauslabs.com and through
+  Sephora. Haus Labs is a consumer packaged goods / beauty company with no public developer API; this
+  profile is maintained in the API Evangelist network as a company record surfaced from the Lightspeed
+  Venture Partners portfolio.
 url: https://raw.githubusercontent.com/api-evangelist/haus-laboratories/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Beauty
+- Cosmetics
+- Consumer Packaged Goods
+- Retail
+- Ecommerce
+- Direct to Consumer
+- Skincare
 apis: []
+common:
+- type: Website
+  url: https://www.hauslabs.com/
+- type: Support
+  url: https://www.hauslabs.com/pages/contact-us
+- type: TermsOfService
+  url: https://www.hauslabs.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.hauslabs.com/policies/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
