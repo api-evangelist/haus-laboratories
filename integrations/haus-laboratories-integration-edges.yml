@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/haus-laboratories/integrations
+- https://n8n.io/integrations/haus-laboratories/
+- https://composio.dev/toolkits/haus-laboratories
+- https://monid.ai/tools/haus-laboratories
+checked:
+- https://composio.dev/toolkits/haus-laboratories
+- https://monid.ai/tools/haus-laboratories
+- https://n8n.io/integrations/haus-laboratories/
+- https://zapier.com/apps/haus-laboratories/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
